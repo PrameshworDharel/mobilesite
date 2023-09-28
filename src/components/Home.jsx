@@ -3,10 +3,17 @@ import { ReactComponent as Vector } from "../assets/svg/Vector1.svg";
 import { ReactComponent as ArrowIcon } from "../assets/svg/Vector.svg";
 import { ReactComponent as AppleIcon } from "../assets/svg/1200px-Apple_gray_logo 1.svg";
 import { ReactComponent as Line } from "../assets/svg/Line 4.svg";
+import { ReactComponent as Star } from "../assets/svg/star.svg";
 import Applephone from "../assets/images/phone.png";
 import Rectangle from "../assets/images/Rectangle 18.png";
 import LeftArrow from "../assets/images/Fill With Left Arrow.png";
 import RightArrow from "../assets/images/Fill with Right Arrow.png";
+import love from "../assets/images/love.png";
+import Remote from "../assets/images/Frame 611.png";
+import Eye from "../assets/images/Fill Eye.png";
+import Keyboard from "../assets/images/ak-900-01-500x500 1.png";
+import Desktop from "../assets/images/Frame 613.png";
+import Chair from "../assets/images/Frame 614.png";
 
 const Homepage = () => {
   return (
@@ -111,6 +118,169 @@ const Homepage = () => {
             </button>
           </div>
         </div>
+        <div className="flex justify-between">
+          <div className="bg-gray  mt-20  shadow-md">
+            <div className="flex justify-between p-6">
+              <div>
+                <button className="bg-red rounded-sm px-3">-40%</button>
+              </div>
+              <div>
+                <button className="rounded-full px-2 py-2 bg-white">
+                  <img src={love} alt="" />
+                </button>
+              </div>
+            </div>
+            <div className="flex mt-2 justify-between">
+              <div className=" ml-6 mb-5">
+                <img src={Remote}></img>
+              </div>
+              <div className="ml-15">
+                <button className="rounded-full mr-5 px-1 py-1 bg-white">
+                  <img src={Eye} alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gray w-[25%] mt-20  shadow-md">
+            <div className="flex justify-between p-6">
+              <div>
+                <button className="bg-red rounded-sm px-3">-35%</button>
+              </div>
+              <div>
+                <button className="rounded-full px-2 py-2 bg-white">
+                  <img src={love} alt="" />
+                </button>
+              </div>
+            </div>
+            <div className="flex mt-2 justify-between">
+              <div className=" ml-6 mb-5">
+                <img src={Keyboard}></img>
+              </div>
+              <div className="ml-15">
+                <button className="rounded-full mr-5 px-1 py-1 bg-white">
+                  <img src={Eye} alt="" />
+                </button>
+              </div>
+            </div>
+            <div className="bg-black text-white text-center mt-10 p-3">
+              <button>Add To Cart</button>
+            </div>
+          </div>
+
+          <div className="bg-gray w-[25%] mt-20  shadow-md">
+            <div className="flex justify-between p-6">
+              <div>
+                <button className="bg-red rounded-sm px-3">-30%</button>
+              </div>
+              <div>
+                <button className="rounded-full px-2 py-2 bg-white">
+                  <img src={love} alt="" />
+                </button>
+              </div>
+            </div>
+            <div className="flex mt-2 justify-between">
+              <div className=" ml-6 mb-5">
+                <img src={Desktop}></img>
+              </div>
+              <div className="ml-15">
+                <button className="rounded-full mr-5 px-1 py-1 bg-white">
+                  <img src={Eye} alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gray w-[25%] mt-20  shadow-md">
+            <div className="flex justify-between p-6">
+              <div>
+                <button className="bg-red rounded-sm px-3">-25%</button>
+              </div>
+              <div>
+                <button className="rounded-full px-2 py-2 bg-white">
+                  <img src={love} alt="" />
+                </button>
+              </div>
+            </div>
+            <div className="flex mt-2 justify-between">
+              <div className=" ml-6 mb-5">
+                <img src={Chair}></img>
+              </div>
+              <div className="ml-15">
+                <button className="rounded-full mr-5 px-1 py-1 bg-white">
+                  <img src={Eye} alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex  ">
+          <div className="mt-6">
+            <h5 className="font-bold">HAVIT HV-G92 Gamepad</h5>
+            <div className="flex gap-3">
+              <p className="text-red">$120</p>
+              <p>$160</p>
+            </div>
+            <div className="flex gap-2 mt-2">
+              <Star />
+              <Star />
+              <Star />
+              <Star />
+              <Star />
+              <small className="">(88)</small>
+            </div>
+          </div>
+          <div className="mt-6 ml-28">
+            <h5 className="font-bold">IPS LCD Gaming Monitor</h5>
+            <div className="flex gap-3">
+              <p className="text-red">$920</p>
+              <p>$1060</p>
+            </div>
+            <div className="flex gap-2 mt-2">
+              <Star />
+              <Star />
+              <Star />
+              <Star />
+              <Star />
+              <small className="">(75)</small>
+            </div>
+          </div>
+          <div className="mt-6 ml-48">
+            <h5 className="font-bold">AK-900 Wired Keyboard</h5>
+            <div className="flex gap-3">
+              <p className="text-red">$960</p>
+              <p>$1160</p>
+            </div>
+            <div className="flex gap-2 mt-2">
+              <Star />
+              <Star />
+              <Star />
+              <Star />
+              <Star />
+              <small className="">(99)</small>
+            </div>
+          </div>
+          <div className="mt-6 ml-48">
+            <h5 className="font-bold">S-Series Comfort Chair </h5>
+            <div className="flex gap-3">
+              <p className="text-red">$370</p>
+              <p>$400</p>
+            </div>
+            <div className="flex gap-2 mt-2">
+              <Star />
+              <Star />
+              <Star />
+              <Star />
+              <Star />
+              <small className="">(99)</small>
+            </div>
+          </div>
+        </div>
+        <div className="mt-10  flex justify-center">
+          <button className=" bg-red text-center text-white shadow-sm rounded-sm p-3 px-7">
+            View All Products
+          </button>
+        </div>
+        <hr className=" p-5 mt-10"></hr>
       </div>
     </>
   );
